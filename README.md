@@ -2,7 +2,7 @@
 
 #### Author - Sangheon Kim(ksj8367@gmail.com)
 
-#### Version - 1.0.6
+#### Version - 1.0.8
 
 ## Installing
 
@@ -105,3 +105,5 @@ export default Counter;
 - [x] debug <b>(v1.0.5)</b>
 - [x] add Readme File <b>(v1.0.6)</b>
 - [x] Edit return device name<b>(v1.0.6)</b>
+- [x] Edit README file<b>(v1.0.7)</b>
+- [x] Edit Search Tag

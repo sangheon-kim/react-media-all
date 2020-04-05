@@ -1,6 +1,6 @@
 {
   "name": "react-media-all",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "license": "MIT",
   "main": "build/index.js",
   "module": "build/index.es.js",
@@ -20,7 +20,13 @@
   "keywords": [
     "react",
     "next",
-    "next react-media"
+    "next react-media",
+    "html",
+    "css",
+    "responsive",
+    "production",
+    "media",
+    "react-media-all"
   ],
   "author": {
     "name": "Sangheon Kim",
