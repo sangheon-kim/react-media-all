@@ -1,23 +1,24 @@
 import * as React from "react";
-
-import { useDispatch } from "./common/State2";
+import { Provider } from "./common/State2";
+import { useDispatch, useGlobalState } from "./common/State2";
 
 interface Props {
   widthObj: any;
 }
-
-const ChangeMedia: React.FC<Props> = ({ children, widthObj }) => {
+export const getState: any = useGlobalState;
+export const WidthProvider: React.ComponentType = Provider;
+export const ChangeMedia: React.FC<Props> = ({ children, widthObj }) => {
   const { pc, tb, ph } = widthObj;
   const withPromise = React.useCallback(
     (width: number) => {
       return new Promise((res) => {
         setTimeout(() => {
           if (width >= pc) {
-            res("pc");
+            res("p");
           } else if (width <= pc && width >= tb) {
-            res("태블릿");
+            res("t");
           } else if (width <= ph) {
-            res("모바일");
+            res("m");
           }
         }, 800);
       });
@@ -52,5 +53,3 @@ const ChangeMedia: React.FC<Props> = ({ children, widthObj }) => {
 
   return <React.Fragment>{children}</React.Fragment>;
 };
-
-export default ChangeMedia;

@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
-import ChangeMedia from "..";
+import { ChangeMedia } from "..";
 
 test("component testing", () => {
   const widthObj = {

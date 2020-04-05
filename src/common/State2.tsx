@@ -5,7 +5,7 @@ import { Action, initialState, reducer, State } from ".";
 const stateCtx = React.createContext(initialState);
 const dispatchCtx = React.createContext((() => 0) as React.Dispatch<Action>);
 
-export const WithProvider: React.ComponentType = ({ children }) => {
+export const Provider: React.ComponentType = ({ children }) => {
   const [state, dispatch] = React.useReducer(reducer, initialState);
 
   return (
