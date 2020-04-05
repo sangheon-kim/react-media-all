@@ -64,13 +64,13 @@ var ChangeMedia = function (_a) {
         return new Promise(function (res) {
             setTimeout(function () {
                 if (width >= pc) {
-                    res("pc");
+                    res("p");
                 }
                 else if (width <= pc && width >= tb) {
-                    res("태블릿");
+                    res("t");
                 }
                 else if (width <= ph) {
-                    res("모바일");
+                    res("m");
                 }
             }, 800);
         });

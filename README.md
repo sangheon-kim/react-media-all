@@ -8,11 +8,11 @@
 
 ### NPM
 
-  <pre>$ npm i react-media-next</pre>
+  <pre>$ npm i react-media-all</pre>
 
 ### Yarn
 
-  <pre>$ yarn add react-media-next</pre>
+  <pre>$ yarn add react-media-all</pre>
 
 ## Usage
 
