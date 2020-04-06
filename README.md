@@ -2,7 +2,7 @@
 
 #### Author - Sangheon Kim(ksj8367@gmail.com)
 
-#### Version - 1.0.8
+#### Version - 1.0.9
 
 ## Installing
 
@@ -55,7 +55,7 @@ function App() {
   const widthObj: any = {
     pc: 1025,
     tb: 768,
-    ph: 767,
+    ph: 767
   };
   return (
     <ChangeMedia widthObj={widthObj}>
@@ -106,4 +106,6 @@ export default Counter;
 - [x] add Readme File <b>(v1.0.6)</b>
 - [x] Edit return device name<b>(v1.0.6)</b>
 - [x] Edit README file<b>(v1.0.7)</b>
-- [x] Edit Search Tag
+- [x] Edit Search Tag <b>(v1.0.8)</b>
+- [x] Edit README FILE (to Change Homepage URL)
+- [x] Edit .gitignore File(Add yarn.lock)
